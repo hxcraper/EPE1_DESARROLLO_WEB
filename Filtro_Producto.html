@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de Producto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtro de Productos</h1>
+        <label for="filtro">Buscar por categoría o nombre:</label>
+        <input type="text" id="filtro" onkeyup="filtrarProductos()">
+        <div id="resultados"></div>
+        <button class="btn" onclick="enviarDatos()">Enviar datos</button>
+        <a href="Index.html" class="btn">Volver a Inicio</a>
+        
+    </div>
+
+    <script src="productos.js"></script>
+    <script src="filtro.js"></script>
+    <script src="formulario.js"></script>
+</body>
+</html>
